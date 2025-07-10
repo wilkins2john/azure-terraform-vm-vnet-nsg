@@ -18,9 +18,17 @@ In real-world cloud roles, deploying secure and repeatable environments is criti
 - vNet with custom subnet
 - NSG with limited inbound access (e.g. SSH or RDP only from specific IPs)
 - Linux or Windows VM deployed in subnet
-
+- NSG rules assigned to subnet or NIC
 ---
-
+### 📁 Folder Structure
+```
+├── main.tf
+├── variables.tf
+├── outputs.tf
+├── terraform.tfvars
+├── README.md
+└── .gitignore
+```
 ## Deployed Resources
 
 After running `terraform apply`, the following resources were successfully created in Azure:
@@ -52,3 +60,6 @@ After running `terraform apply`, the following resources were successfully creat
 - 🔁 Automate this with GitHub Actions CI/CD
 - 🔍 Add monitoring with Azure Monitor and Log Analytics
 - 🧪 Begin hands-on projects aligned with the AZ-104 + Cloud+ exams
+
+### 🤝 Let's Connect
+Connect on [LinkedIn](https://www.linkedin.com/in/wilkins2john) or check out more on [GitHub](https://github.com/wilkins2john)!
